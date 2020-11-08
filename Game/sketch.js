@@ -200,6 +200,11 @@ function victory(){
     background(0);
     fill(100, 200, 150);
     rect(80, 125, w-140, 100, 15);
+    fill(0);
+    stroke(121, 15, 95);
+    strokeWeight(10);
+    rect(20, 330, w-40, 150, 15)
+    strokeWeight(0);
     fill(255);
     textSize(55);
     text("YOU WIN!", 180, 195);
